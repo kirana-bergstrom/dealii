@@ -194,7 +194,7 @@ void distribute_dofs(DoFHandler<2> &dof_handler)
   // the <code>DoFTools::make_sparsity_pattern</code> any information that
   // would indicate that our bilinear form may couple shape functions in a
   // non-symmetric way. You will also note that it has several distinct
-  // region, which stem from the fact that the numbering starts from the
+  // regions, which stem from the fact that the numbering starts from the
   // coarsest cells and moves on to the finer ones; since they are all
   // distributed symmetrically around the origin, this shows up again in the
   // sparsity pattern.
